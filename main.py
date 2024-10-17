@@ -5,7 +5,7 @@ from kivy.core.window import Window
 from home_page import HomePage
 
 # Resize the window
-Window.size = (350, 600)
+Window.size = (400, 800)
 
 
 class FacebookApp(MDApp):
@@ -23,7 +23,6 @@ class FacebookApp(MDApp):
 
     def on_start(self):
         self.root.dispatch("on_enter")
-
 
 if __name__ == '__main__':
     FacebookApp().run()
